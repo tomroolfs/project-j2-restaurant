@@ -2,17 +2,74 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#test {
-  display: none;
+/* NAVBAR */
+
+.navbar {
+    overflow: auto;
 }
 
-.errorForm {
-    color: red;
-    font-size: 0.7em;
+nav {
+    float: right;
 }
 
-table, th, td {
-    border: 2px solid black;
-    border-collapse: collapse;
+.navbar .logo img {
+    float: left;
+    height: 5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    transition: all 0.3s ease-in-out;
+    color: orange;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+.header h1 {
+    font-size: 4rem;
+    padding: 10px 0;
+    font-weight: 800;
+  }
+  
+.header p {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+  
+  .header {
+    width: 100%;
+    padding:8rem 0;
     text-align: center;
-}
+    background-image: url('https://www.humphreys.nl/mysite/modules/SFIL0100/images/239_humphreys_restaurant_amsterdam_2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  .menu-btn {
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-top: 30px; 
+  }
+  
+  .menu-btn:hover {
+    transition: all 0.3s ease-in-out;
+    color: orange;
+    border-color: rgb(243, 211, 154);
+  }
